@@ -34,6 +34,7 @@ const Login = () => {
           <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
             <div className="max-w-[320px] mx-auto py-16">
               <h1 className="text-3xl font-bold">Sign In</h1>
+              //simple error Handling
               {error ? <p className="p-3 bg-red-700 text-white my-2">Something went wrong!</p> : null}
               <form
                 onSubmit={handleSubmit}
